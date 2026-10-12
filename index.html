@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bhagyesh Vijaykumar Bachchhav | Resume</title>
+<style>
+:root{--ink:#142b3b;--muted:#5d6b73;--lime:#c8f169;--paper:#f7f8f3;--white:#fff;--line:#dfe5df}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,Arial,Helvetica,sans-serif;line-height:1.55}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1120px;margin:auto;padding:0 28px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;border-bottom:1px solid var(--line);gap:20px}
+.brand{font-weight:900;letter-spacing:-.04em;font-size:1.1rem}
+.brand span{display:inline-block;background:var(--lime);padding:2px 7px;border-radius:6px;margin-right:7px}
+.navlinks{display:flex;gap:20px;flex-wrap:wrap;font-size:.88rem;color:var(--muted)}
+.hero{padding:76px 0 56px;display:grid;grid-template-columns:1.5fr .7fr;gap:44px;align-items:center}
+.kicker{font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:#567044}
+h1{font-size:clamp(3rem,7vw,6.3rem);line-height:.93;letter-spacing:-.075em;margin:18px 0 24px;font-weight:900}
+h1 span{color:#809c4d}
+.intro{font-size:1.12rem;max-width:670px;color:var(--muted)}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-block;padding:12px 18px;border-radius:999px;background:var(--ink);color:white;font-weight:750;font-size:.9rem;border:1px solid var(--ink)}
+.btn.alt{background:var(--lime);color:var(--ink);border-color:var(--lime)}
+.profile-card{background:var(--ink);color:white;border-radius:26px;padding:28px;min-height:270px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}
+.profile-card:after{content:"";position:absolute;width:190px;height:190px;border-radius:50%;background:var(--lime);right:-65px;top:-70px;opacity:.95}
+.profile-card>*{position:relative;z-index:1}
+.initials{font-size:3rem;font-weight:900;letter-spacing:-.08em;color:var(--lime)}
+.profile-card .small{font-size:.8rem;color:#d1dce0}
+.profile-card h2{font-size:1.5rem;line-height:1.1;margin:12px 0}
+section{padding:34px 0}
+.section-head{display:flex;justify-content:space-between;align-items:baseline;gap:20px;border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:22px}
+h2.section-title{font-size:1.55rem;letter-spacing:-.04em;margin:0}
+.index{font-size:.8rem;color:var(--muted);font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.card{background:var(--white);border:1px solid var(--line);border-radius:18px;padding:22px}
+.card h3{margin:0 0 7px;font-size:1.05rem}
+.meta{font-size:.88rem;color:var(--muted);margin-bottom:10px}
+p{margin:8px 0}
+ul{padding-left:20px;margin:10px 0 0}
+li{margin:7px 0}
+.pills{display:flex;gap:9px;flex-wrap:wrap}
+.pill{background:#eaf0df;border:1px solid #d8e4c5;padding:8px 12px;border-radius:999px;font-size:.88rem;font-weight:650}
+.edu{display:grid;grid-template-columns:150px 1fr;gap:18px;padding:17px 0;border-bottom:1px solid var(--line)}
+.edu:last-child{border-bottom:0}
+.year{font-weight:850;color:#668047}
+.edu h3{margin:0;font-size:1rem}
+.edu p{color:var(--muted);margin:3px 0}
+.contact-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.contact{background:var(--white);padding:16px 18px;border-radius:14px;border:1px solid var(--line);overflow-wrap:anywhere}
+.contact b{display:block;font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:5px}
+footer{padding:32px 0 46px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);margin-top:35px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:48px}.profile-card{min-height:220px}.grid,.contact-grid{grid-template-columns:1fr}.navlinks{gap:10px}.wrap{padding:0 18px}.edu{grid-template-columns:1fr;gap:4px}h1{font-size:clamp(3rem,14vw,5rem)}}
+@media print{body{background:#fff}.wrap{max-width:none;padding:0 12px}nav,.actions{display:none}.hero{padding:24px 0;grid-template-columns:1.4fr .6fr}.profile-card,.card,.contact{break-inside:avoid}section{padding:16px 0}footer{margin-top:15px;padding:15px 0}.btn{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+  <a class="brand" href="#top"><span>BB</span> BHAGYESH BACHCHHAV</a>
+  <div class="navlinks"><a href="#about">About</a><a href="#education">Education</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div>
+</nav>
+<main id="top">
+  <header class="hero">
+    <div>
+      <div class="kicker">PGDM Finance & Management Student · IMDR Pune</div>
+      <h1>Bhagyesh<br><span>Bachchhav.</span></h1>
+      <p class="intro">A PGDM student with a Computer Science background and hands-on experience in STEM content development, electronics, robotics, Arduino, sensors and basic coding. Interested in applying technical and management skills to practical problems and team goals.</p>
+      <div class="actions"><a class="btn alt" href="mailto:bhagyeshbachchhav2004@gmail.com">Email me ↗</a><button class="btn" onclick="window.print()">Print / Save as PDF</button></div>
+    </div>
+    <aside class="profile-card">
+      <div class="initials">BB.</div>
+      <div><div class="small">BASED IN PUNE, MAHARASHTRA</div><h2>Curious mind.<br>Practical problem-solver.</h2><div class="small">STEM · Electronics · Management</div></div>
+    </aside>
+  </header>
+
+  <section id="about">
+    <div class="section-head"><h2 class="section-title">About me</h2><span class="index">01 / PROFILE</span></div>
+    <div class="card"><p>Currently pursuing PGDM at IMDR after completing a B.Sc. in Computer Science from Fergusson College, Pune. Experienced in creating and testing STEM activities and supporting school laboratory sessions. Looking to keep learning, solve practical problems, and contribute effectively in collaborative environments.</p></div>
+  </section>
+
+  <section id="education">
+    <div class="section-head"><h2 class="section-title">Education</h2><span class="index">02 / ACADEMICS</span></div>
+    <div class="card">
+      <div class="edu"><div class="year">2026–2028</div><div><h3>PGDM</h3><p>Institute of Management Development & Research (IMDR), Pune</p><p><strong>Status:</strong> Pursuing</p></div></div>
+      <div class="edu"><div class="year">2023–2026</div><div><h3>B.Sc. Computer Science</h3><p>Fergusson College, Pune</p><p><strong>CGPA:</strong> 8.11</p></div></div>
+      <div class="edu"><div class="year">2023</div><div><h3>Higher Secondary Certificate (HSC)</h3><p>Maharashtra State Board · <strong>85.00%</strong></p></div></div>
+      <div class="edu"><div class="year">2021</div><div><h3>Secondary School Certificate (SSC)</h3><p>Maharashtra State Board · <strong>94.60%</strong></p></div></div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="section-head"><h2 class="section-title">Internship experience</h2><span class="index">03 / EXPERIENCE</span></div>
+    <div class="card">
+      <h3>STEM Content Development Intern</h3>
+      <div class="meta">STEMious Solutions Pvt. Ltd. · 6 months</div>
+      <ul>
+        <li>Created and tested 1,000+ STEM activities using breadboards, Arduino Uno, sensors and electronic components.</li>
+        <li>Prepared two activity manuals with diagrams, components, objectives, procedures, outputs, concepts and troubleshooting.</li>
+        <li>Worked on electronics, robotics, circuits, sensors and basic coding.</li>
+        <li>Supported STEM lab activities at MKCS School and solved practical issues during activities.</li>
+        <li>Worked independently and with the internship team, including preparing minutes of meetings (MOMs).</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-head"><h2 class="section-title">Skills & competencies</h2><span class="index">04 / TOOLKIT</span></div>
+    <div class="grid">
+      <div class="card"><h3>Technical skills</h3><div class="pills"><span class="pill">Microsoft Excel</span><span class="pill">Power BI</span><span class="pill">Arduino Uno</span><span class="pill">Basic Coding</span><span class="pill">Electronics & Circuits</span><span class="pill">Sensors & Robotics</span></div></div>
+      <div class="card"><h3>Core competencies</h3><div class="pills"><span class="pill">Teamwork</span><span class="pill">Leadership</span><span class="pill">Problem-Solving</span></div></div>
+    </div>
+  </section>
+
+  <section id="interests">
+    <div class="section-head"><h2 class="section-title">Beyond work</h2><span class="index">05 / INTERESTS</span></div>
+    <div class="grid">
+      <div class="card"><h3>Personal interests</h3><div class="pills"><span class="pill">Trekking</span><span class="pill">Travelling</span><span class="pill">Cooking</span></div></div>
+      <div class="card"><h3>Languages</h3><div class="pills"><span class="pill">English</span><span class="pill">Hindi</span><span class="pill">Marathi</span></div></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-head"><h2 class="section-title">Let's connect</h2><span class="index">06 / CONTACT</span></div>
+    <div class="contact-grid">
+      <a class="contact" href="mailto:bhagyeshbachchhav2004@gmail.com"><b>Email</b>bhagyeshbachchhav2004@gmail.com</a>
+      <a class="contact" href="tel:+917822083219"><b>Phone</b>+91 7822083219</a>
+      <a class="contact" href="https://www.linkedin.com/in/bhagyesh-bachchhav-041a12218" target="_blank" rel="noopener"><b>LinkedIn</b>linkedin.com/in/bhagyesh-bachchhav-041a12218</a>
+      <div class="contact"><b>Location</b>Pune, Maharashtra, India</div>
+    </div>
+    <p class="meta" style="margin-top:14px">Permanent address is omitted from this public-facing version for privacy.</p>
+  </section>
+</main>
+<footer><span>© Bhagyesh Vijaykumar Bachchhav</span><span>Resume portfolio · Built in HTML</span></footer>
+</div>
+</body>
+</html>
